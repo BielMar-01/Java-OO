@@ -10,6 +10,7 @@ public class TestaBanco {
 		Conta contaDoGabriel = new Conta();
 		contaDoGabriel.deposita(100);
 		
+		// Associa o cliente Gabriel a conta contaDoGabriel
 		contaDoGabriel.titular = gabriel;
 		System.out.println(contaDoGabriel.titular);
 		System.out.println(gabriel);
